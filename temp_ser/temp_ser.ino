@@ -10,5 +10,4 @@ void loop() {
   float temperature_celcius = valeur_brute * (5.0 / 1023.0 * 100.0);
 
   Serial.println(temperature_celcius);
-  delay(step_time*1000);
 }
